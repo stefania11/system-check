@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function check {
   msg=$1
   shift

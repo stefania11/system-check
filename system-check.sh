@@ -18,7 +18,7 @@ failed=0
 
 check "GCC installed"             'gcc --version'
 check "Git installed"             'git --version'
-check "Ruby 2.1.4 installed"      'ruby -v | grep "2.1.4"'
+check "Ruby 2.2.0 installed"      'ruby -v | grep "2.2.0"'
 check "Bundler installed"         'gem list | grep "bundler"'
 check "PostgreSQL installed"      'which psql'
 check "pg gem installed"          'gem list | grep "pg"'
